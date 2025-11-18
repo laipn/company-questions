@@ -57,17 +57,32 @@ Most companies don't do exit-interviews for legal [reasons](https://www.law.com/
 
 ## Management Culture
 
-> [!IMPORTANT]
-> For large companies only
->
-> Don't ask management questions for small companies as there is a good chance it will hurt your hiring chances
+**Question** (Large companies): What is your company's mission statement and/or its core values? Either implicit or explicit.
 
-Questions:
+**Solutions**:
 
-1. What is your company's mission statement and/or its core values? Either implicit or explicit.
-2. Do you believe in that mission or those core-values?
-3. Can you give an example of how management employed these values in the past?
-4. Can you give an example of an Q&A that resulted in an action taken by management.
+- Yes
+  - Follow up: Can you give an example of how management employed these values in the past?
+- No
+  - WHy not?
+
+**Alternatively** (Medium companies): Does your company do Q&As? Why or why not?
+
+**Solutions**:
+
+- Yes
+  - Follow up: Can you give an example of an Q&A that resulted in an action taken by management.
+- No
+  - Follow up: How does the company ensure ICs have input in executive decision-making?
+
+**Alternative** (Small companies): Under what scenarios would you quit the company?
+
+**Solutions**:
+
+- Company gets bought.
+  - Under what conditions would you stay with the company even if it were bought? See if people know why they are working here.
+- Company does something unethical
+  - What kind of ethical breaches would qualify? See if people working here have personal ethics.
 
 ## Technical Execution
 
