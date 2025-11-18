@@ -8,9 +8,9 @@ Good companies will be able to cite the "breadth" of these solutions. Great comp
 
 Changes in external dependencies often cause or expose bugs in code. See [Hyrum's Law](https://www.hyrumslaw.com/). A change in your software has the potential to break users. Updating system packages can often implicitly break your own application.
 
-**Question**: How does your company deal with this?
+_Question_: How does your company deal with this?
 
-**Solutions**:
+_Solutions_:
 
 - Monorepo ensures all tests can be run when dependencies change.
   - Running every test on every code change in a monorepo is non-sustainable
@@ -30,9 +30,9 @@ Changes in external dependencies often cause or expose bugs in code. See [Hyrum'
 
 [Jerks](https://en.wikipedia.org/wiki/The_No_Asshole_Rule) co-workers cause unecessary attrition and issues in project execution.
 
-**Question**: What methods do you use to filter these out?
+_Question_: What methods do you use to filter these out?
 
-**Solutions**:
+_Solutions_:
 
 - Behavioral interview questions
   - Studies [suggests](https://pmc.ncbi.nlm.nih.gov/articles/PMC4856718/) that the reason for their efficacy is that it selects for individuals "Knowing How You Should Behave" rather than "How You Would Behave"
@@ -47,9 +47,9 @@ Changes in external dependencies often cause or expose bugs in code. See [Hyrum'
 
 ### Exit Interviews
 
-**Question**: Does your company do exit interview? Why or why not?
+_Question_: Does your company do exit interview? Why or why not?
 
-**Subtleties**:
+_Subtleties_:
 
 Giving negative feedback can only have negative consequences on working relationships. The only time you can elicit honest feedback is when an employee leave a company. This is true for both an attritioning employee giving feedback about management; and for other employees giving feedback on an attritioning employee.
 
@@ -57,27 +57,27 @@ Most companies don't do exit-interviews for legal [reasons](https://www.law.com/
 
 ## Management Culture
 
-**Question** (Large companies): What is your company's mission statement and/or its core values? Either implicit or explicit.
+_Question_ (_Large companies_): What is your company's mission statement and/or its core values? Either implicit or explicit.
 
-**Solutions**:
+_Solutions_:
 
 - Yes
   - Follow up: Can you give an example of how management employed these values in the past?
 - No
   - WHy not?
 
-**Alternatively** (Medium companies): Does your company do Q&As? Why or why not?
+**Alternatively** (_Medium companies_): Does your company do Townhalls/Q&As? Why or why not?
 
-**Solutions**:
+_Solutions_:
 
 - Yes
   - Follow up: Can you give an example of an Q&A that resulted in an action taken by management.
 - No
   - Follow up: How does the company ensure ICs have input in executive decision-making?
 
-**Alternative** (Small companies): Under what scenarios would you quit the company?
+**Alternative** (_Small companies_): Under what scenarios would you quit the company?
 
-**Solutions**:
+_Solutions_:
 
 - Company gets bought.
   - Under what conditions would you stay with the company even if it were bought? See if people know why they are working here.
@@ -86,9 +86,9 @@ Most companies don't do exit-interviews for legal [reasons](https://www.law.com/
 
 ## Technical Execution
 
-**Question**: "Does your org use agile practices? Which ones and why?"
+_Question_: "Does your org use agile practices? Which ones and why?"
 
-**Solutions**:
+_Solutions_:
 
 - No
   - If not, what do you do instead to make sure programs execute on time?
@@ -100,9 +100,9 @@ Most companies don't do exit-interviews for legal [reasons](https://www.law.com/
 
 ### Promotion
 
-**Question**: What is the goal in promoting someone?
+_Question_: What is the goal in promoting someone?
 
-**Solutions**:
+_Solutions_:
 
 - To pay them more
   - Why not just give out a bigger bonus
@@ -114,9 +114,9 @@ Most companies don't do exit-interviews for legal [reasons](https://www.law.com/
 
 ### Key Performance Indicators
 
-**Question**: "Does your org use KPI practices? For what purpose?"
+_Question_: "Does your org use KPI practices? For what purpose?"
 
-**Solutions**:
+_Solutions_:
 
 - Management Tool. Used to ensure managers are doing what they are supposed to do.
   - Does this extend to ICs then? How do you ensure KPIs don't get gamed?
