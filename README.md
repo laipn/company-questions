@@ -79,8 +79,25 @@ Solutions:
   - If not, what do you do instead to make sure programs execute on time?
 - Yes
   - The subtetly is if leadership has a good understanding why they've chosen the practices they have or if teams have the agency to choose which ones to use.
+  - e.g. why do planning poker if you aren't shipping a product by a deadline?
 
 ## Management Practices
+
+### Promotion
+
+Question: What is the goal in promoting someone?
+
+Solutions:
+
+- To pay them more
+  - Why not just give out a bigger bonus
+- Recognition
+  - Does this not just encourage ladder-climbers
+- To reinforce a meritocracy. People who make good decisions should be making important decisions.
+  - Hierchies can stifle innovation since it cuts out juniors from decision-making
+  - What metrics are used to determine who is better at decision-making?
+
+### Key Performance Indicators
 
 Question: "Does your org use KPI practices? For what purpose?"
 
@@ -90,3 +107,5 @@ Common answers:
   - Does this extend to ICs then? How do you ensure KPIs don't get gamed?
 - Promotion.
   - How do you determine what KPIs are worthy of promotion?
+- No KPIs
+  - How do you ensure managers do what they are supposed to do in a way that HR and promo committees can recognize?
