@@ -4,15 +4,13 @@ Question to ask companies during the interview process. These questions have no 
 
 Good companies will be able to cite the "breadth" of these solutions. Great companies will provide details into subtelties (depth) of some of those solutions.
 
-Fork a branch for each company and put answers inline.
-
 ## Engineering Culture
 
 Changes in external dependencies often cause or expose bugs in code. See [Hyrum's Law](https://www.hyrumslaw.com/). A change in your software has the potential to break users. Updating system packages can often implicitly break your own application.
 
-Question: How does your company deal with this?
+**Question**: How does your company deal with this?
 
-Solutions:
+**Solutions**:
 
 - Monorepo ensures all tests can be run when dependencies change.
   - Running every test on every code change in a monorepo is non-sustainable
@@ -32,9 +30,9 @@ Solutions:
 
 [Jerks](https://en.wikipedia.org/wiki/The_No_Asshole_Rule) co-workers cause unecessary attrition and issues in project execution.
 
-Question: What methods do you use to filter these out?
+**Question**: What methods do you use to filter these out?
 
-Common solutions:
+**Solutions**:
 
 - Behavioral interview questions
   - Studies [suggests](https://pmc.ncbi.nlm.nih.gov/articles/PMC4856718/) that the reason for their efficacy is that it selects for individuals "Knowing How You Should Behave" rather than "How You Would Behave"
@@ -49,9 +47,9 @@ Common solutions:
 
 ### Exit Interviews
 
-Question: Does your company do exit interview? Why or why not?
+**Question**: Does your company do exit interview? Why or why not?
 
-Subtleties:
+**Subtleties**:
 
 Giving negative feedback can only have negative consequences on working relationships. The only time you can elicit honest feedback is when an employee leave a company. This is true for both an attritioning employee giving feedback about management; and for other employees giving feedback on an attritioning employee.
 
@@ -73,9 +71,9 @@ Questions:
 
 ## Technical Execution
 
-Question: "Does your org use agile practices? Which ones and why?"
+**Question**: "Does your org use agile practices? Which ones and why?"
 
-Solutions:
+**Solutions**:
 
 - No
   - If not, what do you do instead to make sure programs execute on time?
@@ -87,9 +85,9 @@ Solutions:
 
 ### Promotion
 
-Question: What is the goal in promoting someone?
+**Question**: What is the goal in promoting someone?
 
-Solutions:
+**Solutions**:
 
 - To pay them more
   - Why not just give out a bigger bonus
@@ -101,9 +99,9 @@ Solutions:
 
 ### Key Performance Indicators
 
-Question: "Does your org use KPI practices? For what purpose?"
+**Question**: "Does your org use KPI practices? For what purpose?"
 
-Common answers:
+**Solutions**:
 
 - Management Tool. Used to ensure managers are doing what they are supposed to do.
   - Does this extend to ICs then? How do you ensure KPIs don't get gamed?
