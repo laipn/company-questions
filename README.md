@@ -4,6 +4,8 @@ Question to ask companies during the interview process. These questions have no 
 
 Good companies will be able to cite the "breadth" of these solutions. Great companies will provide details into subtelties (depth) of some of those solutions.
 
+Fork a branch for each company and put answers inline.
+
 ## Engineering Culture
 
 Changes in external dependencies often cause or expose bugs in code. See [Hyrum's Law](https://www.hyrumslaw.com/). A change in your software has the potential to break users. Updating system packages can often implicitly break your own application.
