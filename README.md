@@ -1,2 +1,92 @@
-# company-questions
-Question to ask companies during the interview process
+# Company Questions
+
+Question to ask companies during the interview process. These questions have no perfect solutions.
+
+Good companies will be able to cite the "breadth" of these solutions. Great companies will provide details into subtelties (depth) of some of those solutions.
+
+## Engineering Culture
+
+Changes in external dependencies often cause or expose bugs in code. See [Hyrum's Law](https://www.hyrumslaw.com/). A change in your software has the potential to break users. Updating system packages can often implicitly break your own application.
+
+Question: How does your company deal with this?
+
+Solutions:
+
+- Monorepo ensures all tests can be run when dependencies change.
+  - Running every test on every code change in a monorepo is non-sustainable
+- Integration testing
+  - More maintenance required. Often fails to capture new failure modes
+- Multiple maintained branches with different amounts of customer "soak" times. (e.g. linux LTS releases)
+  - Mutiple branches require extra maintainers for backports
+- VM images/containers to minimal set of trackable dependencies
+  - Only catches issues occuring late in the dev testing cycle
+- [Hermetic](https://bazel.build/basics/hermeticity) builds
+  - True hermetic builds are typically impossible. libc is typically a required DLL
+  - Compilers and build infra used in builds also introduce non-hermeticity
+
+## People Culture
+
+### No Jerks
+
+[Jerks](https://en.wikipedia.org/wiki/The_No_Asshole_Rule) co-workers cause unecessary attrition and issues in project execution.
+
+Question: What methods do you use to filter these out?
+
+Common solutions:
+
+- Behavioral interview questions
+  - Studies [suggests](https://pmc.ncbi.nlm.nih.gov/articles/PMC4856718/) that the reason for their efficacy is that it selects for individuals "Knowing How You Should Behave" rather than "How You Would Behave"
+  - What do you look for in answers to filter out jerks?
+- HR Intervention
+  - HR often only intervenes for gross violations
+- "Managing out" bad employees
+  - Relies on managers themselves not being jerks
+- Peer feedback
+  - Fear of retribution
+  - Potential solution: stack-rank jerks
+
+### Exit Interviews
+
+Question: Does your company do exit interview? Why or why not?
+
+Subtleties:
+
+Giving negative feedback can only have negative consequences on working relationships. The only time you can elicit honest feedback is when an employee leave a company. This is true for both an attritioning employee giving feedback about management; and for other employees giving feedback on an attritioning employee.
+
+Most companies don't do exit-interviews for legal [reasons](https://www.law.com/thelegalintelligencer/2019/04/29/exit-interviews-do-the-benefits-outweigh-the-risks/?slreturn=20250806172058). Thus a company that chooses to perform exit-interviews makes a conscious decision to trade honest feedback for legal liabilities.
+
+## Management Culture
+
+> [!IMPORTANT]
+> For large companies only
+>
+> Don't ask management questions for small companies as there is a good chance it will hurt your hiring chances
+
+Questions:
+
+1. What is your company's mission statement and/or its core values? Either implicit or explicit.
+2. Do you believe in that mission or those core-values?
+3. Can you give an example of how management employed these values in the past?
+4. Can you give an example of an Q&A that resulted in an action taken by management.
+
+## Technical Execution
+
+Question: "Does your org use agile practices? Which ones and why?"
+
+Solutions:
+
+- No
+  - If not, what do you do instead to make sure programs execute on time?
+- Yes
+  - The subtetly is if leadership has a good understanding why they've chosen the practices they have or if teams have the agency to choose which ones to use.
+
+## Management Practices
+
+Question: "Does your org use KPI practices? For what purpose?"
+
+Common answers:
+
+- Management Tool. Used to ensure managers are doing what they are supposed to do.
+  - Does this extend to ICs then? How do you ensure KPIs don't get gamed?
+- Promotion.
+  - How do you determine what KPIs are worthy of promotion?
