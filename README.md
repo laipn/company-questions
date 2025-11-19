@@ -57,7 +57,7 @@ Most companies don't do exit-interviews for legal [reasons](https://www.law.com/
 
 _Question_: Does your company do exit interview?
 
-_Subtleties_:
+_Solutions_:
 
 - Yes
   - What kind of questions do you ask during these interviews? How does that feedback and incorporated back into the company?
