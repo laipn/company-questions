@@ -4,9 +4,13 @@ Question to ask companies during the interview process. These questions have no 
 
 Good companies will be able to cite the "breadth" of these solutions. Great companies will provide details into subtelties (depth) of some of those solutions.
 
+Branch this doc for each company you interview with and put answers inline.
+
+TODO: Add rubrics for scoring
+
 ## Engineering Culture
 
-Changes in external dependencies often cause or expose bugs in code. See [Hyrum's Law](https://www.hyrumslaw.com/). A change in your software has the potential to break users. Updating system packages can often implicitly break your own application.
+Changes in external dependencies often cause or expose bugs in code -- both your own and others. See [Hyrum's Law](https://www.hyrumslaw.com/). A change in your software has the potential to break users. Updating system packages can often implicitly break your own application.
 
 _Question_: How does your company deal with this?
 
@@ -47,13 +51,18 @@ _Solutions_:
 
 ### Exit Interviews
 
-_Question_: Does your company do exit interview? Why or why not?
-
-_Subtleties_:
-
 Giving negative feedback can only have negative consequences on working relationships. The only time you can elicit honest feedback is when an employee leave a company. This is true for both an attritioning employee giving feedback about management; and for other employees giving feedback on an attritioning employee.
 
 Most companies don't do exit-interviews for legal [reasons](https://www.law.com/thelegalintelligencer/2019/04/29/exit-interviews-do-the-benefits-outweigh-the-risks/?slreturn=20250806172058). Thus a company that chooses to perform exit-interviews makes a conscious decision to trade honest feedback for legal liabilities.
+
+_Question_: Does your company do exit interview?
+
+_Subtleties_:
+
+- Yes
+  - What kind of questions do you ask during these interviews? How does that feedback and incorporated back into the company?
+- No
+  - What other methods do you use to ensure that employees are not leaving because of toxic management?
 
 ## Management Culture
 
@@ -64,7 +73,7 @@ _Solutions_:
 - Yes
   - Follow up: Can you give an example of how management employed these values in the past?
 - No
-  - WHy not?
+  - How else does the leadership ensure a consistent vision?
 
 **Alternatively** (_Medium companies_): Does your company do Townhalls/Q&As? Why or why not?
 
