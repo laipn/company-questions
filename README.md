@@ -2,7 +2,7 @@
 
 Question to ask companies during the interview process. These questions have no perfect solutions.
 
-Good companies will be able to cite the "breadth" of these solutions. Great companies will provide details into subtelties (depth) of some of those solutions.
+Good companies will be able to cite the "breadth" of these solutions. Great companies will provide details into subtleties (depth) of some of those solutions.
 
 Branch this doc for each company you interview with and put answers inline.
 
@@ -21,9 +21,9 @@ _Solutions_:
 - Integration testing
   - More maintenance required. Often fails to capture new failure modes
 - Multiple maintained branches with different amounts of customer "soak" times. (e.g. linux LTS releases)
-  - Mutiple branches require extra maintainers for backports
+  - Multiple branches require extra maintainers for backports
 - VM images/containers to minimal set of trackable dependencies
-  - Only catches issues occuring late in the dev testing cycle
+  - Only catches issues occurring late in the dev testing cycle
 - [Hermetic](https://bazel.build/basics/hermeticity) builds
   - True hermetic builds are typically impossible. libc is typically a required DLL
   - Compilers and build infra used in builds also introduce non-hermeticity
@@ -32,7 +32,7 @@ _Solutions_:
 
 ### No Jerks
 
-[Jerks](https://en.wikipedia.org/wiki/The_No_Asshole_Rule) co-workers cause unecessary attrition and issues in project execution.
+[Jerks](https://en.wikipedia.org/wiki/The_No_Asshole_Rule) co-workers cause unnecessary attrition and issues in project execution.
 
 _Question_: What methods do you use to filter these out?
 
@@ -102,7 +102,7 @@ _Solutions_:
 - No
   - If not, what do you do instead to make sure programs execute on time?
 - Yes
-  - The subtetly is if leadership has a good understanding why they've chosen the practices they have or if teams have the agency to choose which ones to use.
+  - The subtlety is if leadership has a good understanding why they've chosen the practices they have or if teams have the agency to choose which ones to use.
   - e.g. why do planning poker if you aren't shipping a product by a deadline?
 
 ## Management Practices
